@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 10pt;
+  padding: 20px;
+  width: 210mm;
+  height: 297mm;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1.5px solid black;
+  padding: 4px;
+  vertical-align: top;
+}
+.square {
+  width: 0.6cm;
+  height: 0.6cm;
+  border: 1.5px solid #121212;
+  margin-inline: 1cm;
+  display: grid;
+  place-content: center;
+  position: relative;
+  top: -5px;
+  border-top: none;
+}
+@media print {
+  @page {
+    size: A4;
+    margin: 1cm;
+  }
+}
