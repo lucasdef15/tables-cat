@@ -4,6 +4,7 @@ import Header_File from './Header_File';
 import Empregador from './Empregador';
 import Acidentado from './Acidentado';
 import StripeSide from './StripeSide';
+import AcidenteOuDoença from './AcidenteOuDoença';
 
 const Emitente1 = () => {
   return (
@@ -12,6 +13,7 @@ const Emitente1 = () => {
       <Header_File />
       <Empregador />
       <Acidentado />
+      <AcidenteOuDoença />
     </>
   );
 };
