@@ -5,6 +5,7 @@ import Empregador from './Empregador';
 import Acidentado from './Acidentado';
 import StripeSide from './StripeSide';
 import AcidenteOuDoença from './AcidenteOuDoença';
+import Testemunhas from './Testemunhas';
 
 const Emitente1 = () => {
   return (
@@ -14,6 +15,7 @@ const Emitente1 = () => {
       <Empregador />
       <Acidentado />
       <AcidenteOuDoença />
+      <Testemunhas />
     </>
   );
 };

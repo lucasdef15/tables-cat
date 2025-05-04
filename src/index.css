@@ -34,6 +34,13 @@ th {
   top: -5px;
   border-top: none;
 }
+.format {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25cm;
+  border-top: none;
+  border-left: none;
+}
 @media print {
   @page {
     size: A4;

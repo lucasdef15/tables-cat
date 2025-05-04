@@ -11,7 +11,7 @@
   letter-spacing: 0.04cm;
   padding: 0.148cm;
   border: 0.04cm solid #121212;
-  width: 15cm;
+  width: 18.5cm;
 }
 .stripeSide_wrapper span {
   transform: rotate(180deg);
@@ -484,6 +484,7 @@
   border-left: none;
   width: 2cm;
 }
+
 .twenty-four {
   display: flex;
   flex-direction: column;
@@ -491,4 +492,159 @@
   border-top: none;
   border-left: none;
   width: 4.99cm;
+}
+
+/*********** ACIDENTE OU DOENÇA ****************/
+.title_section_aci_doen {
+  border: 0.04cm solid #121212;
+  border-bottom: none;
+  border-left: none;
+  transform: rotate(90deg) translateY(-50%);
+  transform-origin: left top;
+  position: absolute;
+  /* top: 0; */
+  left: 1.64cm;
+  width: 6.3cm;
+
+  padding-block: 0.127cm;
+  display: grid;
+  place-content: center;
+}
+.title_section_aci_doen span {
+  transform: rotate(180deg);
+  display: inline-block;
+  font-size: 0.235cm;
+}
+.thirty {
+  width: 4cm;
+}
+.thirty-one {
+  width: 4cm;
+}
+.thirty-two {
+  width: 7cm;
+}
+.thirty-three {
+  width: 4.8cm;
+}
+.thirty-four {
+  width: 4.19cm;
+}
+.thirty-three ol {
+  margin-left: 0.3cm;
+  display: flex;
+  gap: 0.4cm;
+  font-size: 0.25cm !important;
+}
+.square.ajust__thirty-three {
+  top: -0.55cm;
+  left: 2.5cm;
+  border-top: 1.5px solid #121212;
+  border-bottom: 0;
+}
+.thirty-five {
+  width: 4cm;
+}
+.thirty-six {
+  width: 4cm;
+}
+.thirty-seven {
+  width: 7cm;
+}
+.thirty-eight {
+  width: 1.5cm;
+}
+.thirty-nine {
+  width: 7.49cm;
+}
+
+.forty {
+  width: 15cm;
+}
+.forty-one {
+  width: 8.99cm;
+}
+.forty-two {
+  width: 19.48cm;
+}
+.forty-three {
+  width: 4.5cm;
+  height: 1.5cm;
+}
+.forty-three ol {
+  margin-left: 0.3cm;
+  display: flex;
+  gap: 0.4cm;
+  font-size: 0.25cm !important;
+}
+.square.ajust__forty-three {
+  top: -0.6cm;
+  left: 1cm;
+  border-top: 1.5px solid #121212;
+  border: 1.5px solid #121212;
+}
+.forty-four {
+  width: 4.5cm;
+  height: 1.5cm;
+  gap: 0.6cm;
+}
+.forty-four ol {
+  margin-left: 0.3cm;
+  display: flex;
+  gap: 0.4cm;
+  font-size: 0.25cm !important;
+}
+.square.ajust__forty-four {
+  top: -0.85cm;
+  left: 1cm;
+  border-top: 1.5px solid #121212;
+  border: 1.5px solid #121212;
+  border-bottom: 0;
+}
+/*********** TESTEMUNHAS ****************/
+.title_section_testemunhas {
+  border: 0.04cm solid #121212;
+  border-bottom: none;
+  border-left: none;
+  transform: rotate(90deg) translateY(-50%);
+  transform-origin: left top;
+  position: absolute;
+  /* top: 0; */
+  left: 1.64cm;
+  width: 4.6cm;
+
+  padding-block: 0.127cm;
+  display: grid;
+  place-content: center;
+}
+.title_section_testemunhas span {
+  transform: rotate(180deg);
+  display: inline-block;
+  font-size: 0.235cm;
+}
+.forty-five {
+  width: 23.99cm;
+}
+.forty-six {
+  width: 6.5cm;
+}
+.forty-six section {
+  display: flex;
+  gap: 1cm;
+}
+.forty-bairro {
+  width: 5cm;
+}
+.forty-CEP {
+  width: 2cm;
+}
+.forty-seven {
+  width: 5cm;
+}
+.forty-eight {
+  width: 1.3cm;
+}
+.forty-Telefone {
+  width: 4.187cm;
+  display: flex;
 }
