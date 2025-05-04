@@ -6,6 +6,7 @@ import Acidentado from './Acidentado';
 import StripeSide from './StripeSide';
 import AcidenteOuDoença from './AcidenteOuDoença';
 import Testemunhas from './Testemunhas';
+import Assinaturas from './Assinaturas';
 
 const Emitente1 = () => {
   return (
@@ -16,6 +17,7 @@ const Emitente1 = () => {
       <Acidentado />
       <AcidenteOuDoença />
       <Testemunhas />
+      <Assinaturas />
     </>
   );
 };

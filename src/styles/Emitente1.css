@@ -650,3 +650,39 @@
   width: 4.187cm;
   display: flex;
 }
+
+/********* Assinatiras *********/
+.signatures {
+  display: flex;
+  flex-direction: row;
+  gap: 5cm;
+  width: 25.28cm;
+  border: 0.04cm solid #121212;
+  border-top: none;
+  padding: 1cm;
+  height: 3cm;
+}
+.signature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1cm;
+  position: relative;
+  top: 0.7cm;
+}
+.signature span {
+  font-size: 11px;
+}
+
+.signature2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2cm;
+  position: relative;
+  left: -1cm;
+  top: 1.3cm;
+}
+.signature2 span {
+  font-size: 11px;
+}
