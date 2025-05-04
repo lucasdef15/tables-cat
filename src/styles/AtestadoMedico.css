@@ -1,0 +1,156 @@
+/********* StripeSide *********/
+.stripeSideAten_wrapper {
+  position: absolute;
+  /* top: 2.9cm; */
+  left: 0.94cm;
+  transform: rotate(90deg) translateY(-50%);
+  transform-origin: left top;
+  background-color: #c0c0c0;
+  display: grid;
+  place-content: center;
+  letter-spacing: 0.04cm;
+  padding: 0.2cm;
+  border: 0.04cm solid #121212;
+  border-left: none;
+  width: 5.1cm;
+}
+.stripeSideAten_wrapper span {
+  transform: rotate(180deg);
+  display: inline-block;
+  font-weight: 600;
+  font-size: 0.33cm;
+}
+.atendimento_wrapper {
+  margin-left: 1.33cm;
+  display: flex;
+  flex-direction: row;
+}
+
+/********* Atendimento *********/
+.title_section_atendimento {
+  border: 0.04cm solid #121212;
+  border-bottom: none;
+  border-left: none;
+  transform: rotate(90deg) translateY(-50%);
+  transform-origin: left top;
+  position: absolute;
+  left: 1.05cm;
+  bottom: 1.46cm;
+  width: 2cm;
+
+  padding-block: 0.127cm;
+  display: grid;
+  place-content: center;
+}
+.title_section_atendimento span {
+  transform: rotate(180deg);
+  display: inline-block;
+  font-size: 0.235cm;
+}
+.fifty-three {
+  width: 20cm;
+}
+.fifty-four {
+  width: 2.3cm;
+}
+.fifty-five {
+  width: 1.65cm;
+}
+.fifty-six {
+  width: 5.3cm;
+}
+.fifty-six section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.18cm;
+}
+.fifty-six ol {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5cm;
+  font-size: 0.25cm !important;
+  margin-left: 0.3cm;
+}
+.square.ajust__fifty-six {
+  top: -1.05cm;
+  left: 2.7cm;
+  color: transparent;
+}
+.fifty-seven {
+  width: 7cm;
+}
+.fifty-eight {
+  width: 11.65cm;
+}
+.fifty-eight section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.18cm;
+}
+.fifty-eight ol {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5cm;
+  font-size: 0.25cm !important;
+  margin-left: 0.3cm;
+}
+
+.square.ajust__fifty-eight {
+  top: -1.05cm;
+  left: 9cm;
+  color: transparent;
+}
+/********* Lesao *********/
+.title_section_lesao {
+  border: 0.04cm solid #121212;
+  border-bottom: none;
+  border-left: none;
+  transform: rotate(90deg) translateY(-50%);
+  transform-origin: left top;
+  position: absolute;
+  left: 1.05cm;
+  bottom: 0.57cm;
+  width: 1.1cm;
+
+  padding-block: 0.127cm;
+  display: grid;
+  place-content: center;
+}
+.title_section_lesao span {
+  transform: rotate(180deg);
+  display: inline-block;
+  font-size: 0.235cm;
+}
+.fifty-nine {
+  width: 23.95cm;
+}
+/********* Diagnostico *********/
+.title_section_diagnostico {
+  border: 0.04cm solid #121212;
+  border-bottom: none;
+  border-left: none;
+  transform: rotate(90deg) translateY(-50%);
+  transform-origin: left top;
+  position: absolute;
+  left: 1.05cm;
+  bottom: 1.46cm;
+  width: 2cm;
+
+  padding-block: 0.127cm;
+  display: grid;
+  place-content: center;
+}
+.title_section_diagnostico span {
+  transform: rotate(180deg);
+  display: inline-block;
+  font-size: 0.235cm;
+}
+.sixty {
+  width: 21cm;
+}
+.sixty-one {
+  width: 2.95cm;
+}
+.sixty-two {
+  width: 23.95cm;
+}

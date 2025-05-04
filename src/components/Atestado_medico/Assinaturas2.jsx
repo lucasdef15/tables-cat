@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Assinaturas = () => {
+const Assinaturas2 = () => {
   return (
     <>
-      <div className='signatures'>
+      <div className='signatures ajust__one'>
         <section
-          className='signature'
+          className='signature ajust_position1'
           style={{
             display: 'flex',
             flexDirection: 'column',
@@ -13,7 +13,9 @@ const Assinaturas = () => {
             gap: '.2cm',
           }}
         >
-          <strong>Porto Ferreira, 01 de fevereiro de 2024</strong>
+          <strong style={{ color: 'transparent', userSelect: 'none' }}>
+            Porto Ferreira, 01 de fevereiro de 2024
+          </strong>
           <div
             style={{
               width: '7cm',
@@ -22,7 +24,7 @@ const Assinaturas = () => {
           />
           <span>Local e data</span>
         </section>
-        <section className='signature2'>
+        <section className='signature2 ajust_position2'>
           <div
             style={{
               width: '11cm',
@@ -30,7 +32,7 @@ const Assinaturas = () => {
             }}
           />
           <span style={{ alignSelf: 'center' }}>
-            Assinatura e Carimbo do emitente
+            Assinatura e Carimbo do médico com CRM
           </span>
         </section>
       </div>
@@ -39,4 +41,4 @@ const Assinaturas = () => {
   );
 };
 
-export default Assinaturas;
+export default Assinaturas2;

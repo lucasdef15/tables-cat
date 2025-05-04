@@ -82,12 +82,12 @@ const Acidentado = () => {
               <strong>..-</strong>
             </section>
             <section className='section_format'>
-              <span>Data</span>
+              <span className='titleNumber'>Data</span>
               <strong>0</strong>
             </section>
 
             <section className='section_format'>
-              <span>Orgão Exp.</span>
+              <span className='titleNumber'>Orgão Exp.</span>
               <strong>0</strong>
             </section>
           </td>

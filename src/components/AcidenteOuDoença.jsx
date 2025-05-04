@@ -8,7 +8,7 @@ const AcidenteOuDoença = () => {
       </section>
 
       <table className='emregador_wrapper1 '>
-        <tr style={{ display: 'flex', height: '1.1cm' }}>
+        <tr style={{ display: 'flex', height: '1cm' }}>
           <td className='thirty format'>
             <span className='titleNumber'>30. Data do acidente</span>
             <strong style={{ alignSelf: 'center' }}>0</strong>
@@ -39,7 +39,7 @@ const AcidenteOuDoença = () => {
       </table>
 
       <table className='emregador_wrapper1 '>
-        <tr style={{ display: 'flex', height: '1.1cm' }}>
+        <tr style={{ display: 'flex', height: '1cm' }}>
           <td className='thirty-five format'>
             <span className='titleNumber'>35. Local do acidente</span>
             <strong style={{ alignSelf: 'center' }}>1</strong>
@@ -68,7 +68,7 @@ const AcidenteOuDoença = () => {
       </table>
 
       <table className='emregador_wrapper1 '>
-        <tr style={{ display: 'flex', height: '1.1cm' }}>
+        <tr style={{ display: 'flex', height: '1cm' }}>
           <td className='forty format'>
             <span className='titleNumber'>
               40. Parte (s) do corpo atingida (s)
@@ -83,7 +83,7 @@ const AcidenteOuDoença = () => {
       </table>
 
       <table className='emregador_wrapper1 '>
-        <tr style={{ display: 'flex', height: '3cm' }}>
+        <tr style={{ display: 'flex', height: '2.4cm' }}>
           <td className='forty-two format'>
             <span className='titleNumber'>
               42. Descrição da situação geradora do acidente ou doença

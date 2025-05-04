@@ -8,7 +8,7 @@ const Testemunhas = () => {
       </section>
 
       <table className='emregador_wrapper1 '>
-        <tr style={{ display: 'flex', height: '1.15cm' }}>
+        <tr style={{ display: 'flex', height: '1cm' }}>
           <td className='forty-five format'>
             <span className='titleNumber'>45. Nome</span>
             <strong>0</strong>
@@ -17,7 +17,7 @@ const Testemunhas = () => {
       </table>
 
       <table className='emregador_wrapper1 '>
-        <tr style={{ display: 'flex', height: '1.15cm' }}>
+        <tr style={{ display: 'flex', height: '1cm' }}>
           <td className='forty-six format'>
             <section>
               <span className='titleNumber'>46. Endereço</span>
@@ -49,7 +49,7 @@ const Testemunhas = () => {
       </table>
 
       <table className='emregador_wrapper1 '>
-        <tr style={{ display: 'flex', height: '1.15cm' }}>
+        <tr style={{ display: 'flex', height: '1cm' }}>
           <td className='forty-five format'>
             <span className='titleNumber'>49. Nome</span>
             <strong>0</strong>
@@ -58,7 +58,7 @@ const Testemunhas = () => {
       </table>
 
       <table className='emregador_wrapper1 '>
-        <tr style={{ display: 'flex', height: '1.15cm' }}>
+        <tr style={{ display: 'flex', height: '1cm' }}>
           <td className='forty-six format'>
             <section>
               <span className='titleNumber'>50. Endereço</span>

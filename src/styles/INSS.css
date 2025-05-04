@@ -1,0 +1,91 @@
+/********* StripeSide *********/
+.stripeSideINSS_wrapper {
+  position: absolute;
+  /* top: 2.9cm; */
+  left: 0.4cm;
+  transform: rotate(90deg) translateY(-50%);
+  transform-origin: left top;
+  background-color: #c0c0c0;
+  display: grid;
+  place-content: center;
+  letter-spacing: 0.04cm;
+  padding: 0.17cm;
+  border: 0.04cm solid #121212;
+  border-left: none;
+  width: 4.62cm;
+}
+.stripeSideINSS_wrapper span {
+  transform: rotate(180deg);
+  display: inline-block;
+  font-weight: 600;
+  font-size: 0.35cm;
+}
+.inss_wrapper {
+  margin-left: 0.8cm;
+  display: flex;
+  flex-direction: row;
+}
+.sixty-three {
+  width: 6cm;
+}
+.sixty-three section {
+  display: flex;
+  font-size: 12px;
+  gap: 0.5cm;
+  margin-left: 2.2cm;
+}
+.sixty-four {
+  width: 6cm;
+}
+.sixty-five {
+  width: 6.5cm;
+}
+.sixty-six {
+  width: 13cm;
+  display: flex;
+  gap: 0.5cm;
+}
+.sixty-six ol {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5cm;
+  font-size: 0.25cm !important;
+  margin-left: 0.3cm;
+}
+.square.ajust__sixty-six {
+  top: -1.72cm;
+  left: 11cm;
+  color: transparent;
+}
+.sixty-seven {
+  width: 5.5cm;
+}
+.sixty-seven ol {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5cm;
+  font-size: 0.25cm !important;
+  margin-left: 0.3cm;
+}
+.square.ajust__sixty-seven {
+  top: -1cm;
+  left: 3.3cm;
+  color: transparent;
+}
+
+.final-lis {
+  position: absolute;
+  border: 0.04cm solid #121212;
+  border-top: none;
+  border-left: none;
+  padding: 0.1cm;
+  list-style-position: inside;
+  left: 19.27cm;
+  bottom: 0.6cm;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 6cm;
+  height: 4.6cm;
+  font-size: 0.25cm;
+}

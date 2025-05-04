@@ -10,6 +10,7 @@ body {
   padding: 20px;
   width: 210mm;
   height: 297mm;
+  margin-bottom: 10cm;
 }
 
 table {
@@ -37,12 +38,17 @@ th {
 .format {
   display: flex;
   flex-direction: column;
-  gap: 0.25cm;
+  gap: 0.15cm;
   border-top: none;
   border-left: none;
 }
 @media print {
   @page {
     size: A4;
+    margin: 1cm;
+  }
+  body {
+    -webkit-print-color-adjust: exact; /* Safari/Chrome */
+    print-color-adjust: exact; /* Padrão */
   }
 }
