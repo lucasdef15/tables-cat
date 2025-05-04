@@ -139,7 +139,7 @@ const Acidentado = () => {
           </td>
 
           <td className='twenty-four'>
-            <span className='titleNumber'>24. Telefone</span>{' '}
+            <span className='titleNumber'>24. Telefone</span>
             <strong>() -</strong>
           </td>
         </tr>
