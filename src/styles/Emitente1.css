@@ -569,11 +569,14 @@
   width: 8.89cm;
 }
 .forty-two {
-  width: 19.48cm;
+  width: 19.47cm;
 }
 .forty-three {
   width: 4.4cm;
   height: 1.2cm;
+  border-bottom: 1.5px solid black;
+  padding: 4px;
+  vertical-align: top;
 }
 .forty-three ol {
   margin-left: 0.3cm;
@@ -591,6 +594,9 @@
   width: 4.4cm;
   height: 1.2cm;
   gap: 0.4cm;
+  border-bottom: 1.5px solid black;
+  padding: 4px;
+  vertical-align: top;
 }
 .forty-four ol {
   margin-left: 0.3cm;

@@ -8,13 +8,15 @@ const Lesao = () => {
       </section>
 
       <table className='atendimento_wrapper'>
-        <tr style={{ display: 'flex', height: '1.1cm' }}>
-          <td className='fifty-nine format'>
-            <span className='titleNumber'>
-              59. Descrição e natureza da lesão
-            </span>
-          </td>
-        </tr>
+        <tbody>
+          <tr style={{ display: 'flex', height: '1.1cm' }}>
+            <td className='fifty-nine format'>
+              <span className='titleNumber'>
+                59. Descrição e natureza da lesão
+              </span>
+            </td>
+          </tr>
+        </tbody>
       </table>
     </div>
   );
